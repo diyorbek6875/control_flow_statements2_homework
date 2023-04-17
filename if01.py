@@ -8,4 +8,17 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """
-    return
+    e=0
+    if a>b>c:
+        e==a
+    if b>a>c:
+        e==b
+    if c>a>b:
+        e==c
+
+
+    return c
+a=int(input("son kirit "))
+b=int(input("son kirit "))
+c=int(input("son kirit "))
+print(main(a,b,c))
