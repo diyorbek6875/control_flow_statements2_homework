@@ -8,4 +8,16 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """
-    return
+    e=0
+    if a>b>c or c>b>a:
+        e=b
+    if a>c>b or b>c>a:
+        e=c
+    if b>a>c or c>a>b:
+        e=a
+    return e
+a=int(input())
+b=int(input())
+c=int(input())
+
+print(main(a,b,c))
